@@ -1,0 +1,31 @@
+{
+  "name": "pulse-lunch-order-backend",
+  "version": "1.0.0",
+  "description": "Backend for Pulse Pharmaceuticals Lunch Order System",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js --no-deprecation",
+    "check-admin": "node src/checkAdmin.js",
+    "add-admin": "node src/addAdmin.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "exceljs": "^4.4.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.3.0",
+    "express-validator": "^6.12.1",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.0",
+    "pdfkit": "^0.15.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
